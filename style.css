@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #FFF7ED;
+  --secondary-color: #F85981;
+}
+
+body {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+#banner {
+  margin: auto;
+  width: 60vw;
+  text-align: center;
+  height: 100vh;
+}
+
+#heading {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#hero-img {
+  max-height: 60vh;
+  max-width: 60vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+}
+
+#main-link {
+  display: block;
+  max-width: 25vw;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border;
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 550;
+  cursor: pointer;
+  /* margin-bottom: 8vh; */
+}
+
+#main-app {
+  margin: auto;
+  width: 60vw;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: -4px 3px 19px 2px var(--secondary-color);
+}
+
+#privacy-note {
+  box-sizing: border-box;
+  border: 1px solid var(--secondary-color);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  max-width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#close-note {
+  cursor: pointer;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-style {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.labelTwo-style {
+  padding-top: 2rem;
+}
+
+.input-style {
+  display: block;
+  margin: auto;
+  width: 55%;
+  padding: 0.3125rem 0.3125rem;
+  background-color: #8FD1EB;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #00494d;
+  text-align: start;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px rgb(207, 207, 207);
+}
+
+.check-style {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 30%;
+  align-self: center;
+  cursor: pointer;
+  min-width: 25vw;
+  box-shadow: 5px 5px 20px rgb(161, 161, 161);
+}
+
+.result-style {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.finalImg {
+  max-width: 30vw;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+.icon {
+  color: white;
+  text-align: center;
+  font-size: 2.8rem;
+  margin-top: 5vh;
+  margin-right: 0.6vw;
+  margin-left: 0.6vw;
+}
+
+.github-repo {
+  /* border: 1px solid white; */
+  text-align: center;
+  color: var(--secondary-color);
+  margin-top: 0;
+  padding: 0;
+}
+
+.github-repo-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.redirect {
+  color: var(--secondary-color);
+  font-size: 1rem;
+}
