@@ -37,7 +37,7 @@ function isYourBirthdayLucky(event) {
   }
   else {
     result.textContent = 'No, your birthday is not lucky! :('
-    finalImg.src = 'assets/sad.'
+    finalImg.src = 'assets/sad.jpg'
   }
   finalResult.appendChild(finalImg)
 }
